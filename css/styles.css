@@ -64,6 +64,9 @@ hr {
   float: left;
   margin-right: 30px;
 }
+.software-table {
+  margin: auto;
+}
 .programmer-photo {
     width: 25%;
     float: right;
@@ -75,16 +78,24 @@ hr {
   padding: 100px 0 0 0;
 }
 .middle-container {
-  margin: 100px
+  margin: 100px;
 }
 .bottom-container {
   background-color: #434242;
   padding: 50px 0 20px;
 }
+.software {
+  margin: auto;
+}
 .skill-row {
   width: 50%;
   margin: 100px auto;
   text-align: left;
+}
+.education-table {
+  border: none;
+  margin: auto;
+  padding: 20px auto;
 }
 
 .web {
