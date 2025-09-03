@@ -171,6 +171,10 @@ section h2 {
     margin-bottom: 3rem;
 }
 
+.experience-section h2 {
+    text-align: left;
+}
+
 /* About Section */
 .about-section {
     background: #ffffff;
@@ -225,16 +229,16 @@ section h2 {
 
 .experience-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    gap: 2rem;
-    max-width: 1000px;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+    max-width: 900px;
     margin: 0 auto;
 }
 
 .experience-card {
     background: white;
-    border-radius: 20px;
-    padding: 2rem;
+    border-radius: 16px;
+    padding: 1.5rem;
     box-shadow: 0 8px 30px rgba(0, 0, 0, 0.1);
     border: 1px solid #e2e8f0;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -248,23 +252,24 @@ section h2 {
 }
 
 .company-logo {
-    width: 80px;
-    height: 80px;
-    border-radius: 16px;
+    width: 60px;
+    height: 60px;
+    border-radius: 12px;
     background: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 1rem;
     border: 2px solid #e2e8f0;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
 }
 
 .logo-image {
-    width: 50px;
-    height: 50px;
+    width: 100%;
+    height: 100%;
     object-fit: contain;
-    filter: brightness(0.8) contrast(1.2);
+    padding: 8px;
 }
 
 .experience-content {
@@ -279,16 +284,16 @@ section h2 {
 }
 
 .company-name {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
     font-weight: 700;
     color: #1e293b;
     margin: 0;
 }
 
 .job-type {
-    padding: 0.25rem 0.75rem;
-    border-radius: 20px;
-    font-size: 0.8rem;
+    padding: 0.2rem 0.6rem;
+    border-radius: 16px;
+    font-size: 0.75rem;
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.5px;
@@ -305,17 +310,17 @@ section h2 {
 }
 
 .position-title {
-    font-size: 1.1rem;
+    font-size: 1rem;
     color: #64748b;
     font-weight: 600;
-    margin-bottom: 1rem;
+    margin-bottom: 0.75rem;
     margin-top: 0;
 }
 
 .job-description {
-    font-size: 1rem;
+    font-size: 0.95rem;
     color: #475569;
-    line-height: 1.6;
+    line-height: 1.5;
     margin: 0;
 }
 
