@@ -124,6 +124,21 @@ body {
     box-shadow: 0 8px 25px rgba(37, 99, 235, 0.4);
 }
 
+.hero-buttons {
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.cta-button.github {
+    background: linear-gradient(135deg, #333, #555);
+    box-shadow: 0 4px 15px rgba(51, 51, 51, 0.3);
+}
+
+.cta-button.github:hover {
+    box-shadow: 0 8px 25px rgba(51, 51, 51, 0.4);
+}
+
 .hero-image {
     display: flex;
     justify-content: center;
